@@ -1,4 +1,6 @@
 {
-  "port": 8080,
-  "testFiles": "**/*.*"
+  "viewportWidth": 1000,
+  "viewportHeight": 960,
+  "video": false,
+  "defaultCommandTimeout": 10000
 }

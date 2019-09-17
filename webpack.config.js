@@ -8,7 +8,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     plugins: [new HtmlWebpackPlugin({
-        template: __dirname + '/public/index.html',
+        template: __dirname + '/src/index.html',
         inject: 'body'
     })],
     module: {
@@ -28,7 +28,7 @@ module.exports = {
     },
     watch: true,
     devServer: {
-        contentBase: path.join(__dirname, '/public'),
+        contentBase: 'src',
         compress: true,
         port: 8080,
         hot: true,
