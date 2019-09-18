@@ -2,5 +2,7 @@
   "name": "Имя",
   "family": "Фамилия",
   "male": "М",
-  "female": "Ж"
+  "female": "Ж",
+  "is_success": true,
+  "errors": []
 }
